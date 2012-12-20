@@ -1,0 +1,51 @@
+[22-Oct-2012 04:31:57 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in /home/p25lh1dg/public_html/dev/mypages/api/libs/epiphany/EpiRoute.php on line 133
+[28-Oct-2012 22:46:54 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in /home/p25lh1dg/public_html/dev/mypages/api/libs/epiphany/EpiRoute.php on line 133
+[28-Oct-2012 22:54:54 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/p25lh1dg/public_html/dev/mypages/api/index.php on line 89
+[28-Oct-2012 22:54:54 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/p25lh1dg/public_html/dev/mypages/api/index.php on line 89
+[28-Oct-2012 22:54:54 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/p25lh1dg/public_html/dev/mypages/api/index.php on line 89
+[28-Oct-2012 23:49:14 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/p25lh1dg/public_html/dev/mypages/api/index.php on line 88
+[28-Oct-2012 23:50:17 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/p25lh1dg/public_html/dev/mypages/api/index.php on line 88
+[28-Oct-2012 23:50:19 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/p25lh1dg/public_html/dev/mypages/api/index.php on line 88
+[28-Oct-2012 23:56:30 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/p25lh1dg/public_html/dev/mypages/api/index.php on line 88
+[28-Oct-2012 23:56:33 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/p25lh1dg/public_html/dev/mypages/api/index.php on line 88
+[28-Oct-2012 23:58:39 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/p25lh1dg/public_html/dev/mypages/api/index.php on line 88
+[28-Oct-2012 23:58:45 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/p25lh1dg/public_html/dev/mypages/api/index.php on line 88
+[28-Oct-2012 23:59:31 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in /home/p25lh1dg/public_html/dev/mypages/api/libs/epiphany/EpiRoute.php on line 133
+[28-Oct-2012 23:59:48 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in /home/p25lh1dg/public_html/dev/mypages/api/libs/epiphany/EpiRoute.php on line 133
+[29-Oct-2012 00:01:20 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in /home/p25lh1dg/public_html/dev/mypages/api/libs/epiphany/EpiRoute.php on line 133
+[29-Oct-2012 00:01:24 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in /home/p25lh1dg/public_html/dev/mypages/api/libs/epiphany/EpiRoute.php on line 133
+[29-Oct-2012 00:02:38 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in /home/p25lh1dg/public_html/dev/mypages/api/libs/epiphany/EpiRoute.php on line 133
+[29-Oct-2012 00:02:46 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in /home/p25lh1dg/public_html/dev/mypages/api/libs/epiphany/EpiRoute.php on line 133
+[29-Oct-2012 00:02:51 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in /home/p25lh1dg/public_html/dev/mypages/api/libs/epiphany/EpiRoute.php on line 133
+[29-Oct-2012 00:03:22 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in /home/p25lh1dg/public_html/dev/mypages/api/libs/epiphany/EpiRoute.php on line 133
+[29-Oct-2012 00:07:40 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in /home/p25lh1dg/public_html/dev/mypages/api/libs/epiphany/EpiRoute.php on line 133
+[29-Oct-2012 00:07:49 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in /home/p25lh1dg/public_html/dev/mypages/api/libs/epiphany/EpiRoute.php on line 133
+[29-Oct-2012 00:08:02 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in /home/p25lh1dg/public_html/dev/mypages/api/libs/epiphany/EpiRoute.php on line 133
+[29-Oct-2012 00:08:06 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in /home/p25lh1dg/public_html/dev/mypages/api/libs/epiphany/EpiRoute.php on line 133
+[29-Oct-2012 17:10:12 UTC] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home/p25lh1dg/public_html/dev/mypages/api/libs/epiphany/EpiDatabase.php on line 60
+[29-Oct-2012 19:56:22 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/p25lh1dg/public_html/dev/mypages/api/index.php on line 11
+[29-Oct-2012 19:56:33 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/p25lh1dg/public_html/dev/mypages/api/index.php on line 11
+[29-Oct-2012 20:01:47 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/p25lh1dg/public_html/dev/mypages/api/index.php on line 22
+[29-Oct-2012 20:03:08 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/p25lh1dg/public_html/dev/mypages/api/index.php on line 54
+[29-Oct-2012 20:03:40 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/p25lh1dg/public_html/dev/mypages/api/index.php on line 97
+[29-Oct-2012 20:04:23 UTC] PHP Parse error:  syntax error, unexpected $end in /home/p25lh1dg/public_html/dev/mypages/api/index.php on line 208
+[29-Oct-2012 20:04:53 UTC] PHP Parse error:  syntax error, unexpected $end in /home/p25lh1dg/public_html/dev/mypages/api/index.php on line 209
+[29-Oct-2012 20:07:20 UTC] PHP Parse error:  syntax error, unexpected $end in /home/p25lh1dg/public_html/dev/mypages/api/index.php on line 199
+[29-Oct-2012 20:14:36 UTC] PHP Parse error:  syntax error, unexpected $end in /home/p25lh1dg/public_html/dev/mypages/api/index.php on line 146
+[29-Oct-2012 20:15:44 UTC] PHP Parse error:  syntax error, unexpected $end in /home/p25lh1dg/public_html/dev/mypages/api/index.php on line 146
+[29-Oct-2012 20:15:46 UTC] PHP Parse error:  syntax error, unexpected $end in /home/p25lh1dg/public_html/dev/mypages/api/index.php on line 146
+[29-Oct-2012 20:16:51 UTC] PHP Parse error:  syntax error, unexpected $end in /home/p25lh1dg/public_html/dev/mypages/api/index.php on line 135
+[29-Oct-2012 20:20:19 UTC] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home/p25lh1dg/public_html/dev/mypages/api/libs/epiphany/EpiDatabase.php on line 60
+[29-Oct-2012 20:20:24 UTC] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home/p25lh1dg/public_html/dev/mypages/api/libs/epiphany/EpiDatabase.php on line 60
+[29-Oct-2012 20:20:29 UTC] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home/p25lh1dg/public_html/dev/mypages/api/libs/epiphany/EpiDatabase.php on line 60
+[29-Oct-2012 20:31:11 UTC] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home/p25lh1dg/public_html/dev/mypages/api/libs/epiphany/EpiDatabase.php on line 60
+[29-Oct-2012 20:32:16 UTC] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home/p25lh1dg/public_html/dev/mypages/api/libs/epiphany/EpiDatabase.php on line 60
+[29-Oct-2012 22:18:54 UTC] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home/p25lh1dg/public_html/dev/mypages/api/libs/epiphany/EpiDatabase.php on line 60
+[30-Oct-2012 04:02:52 UTC] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home/p25lh1dg/public_html/dev/mypages/api/libs/epiphany/EpiDatabase.php on line 60
+[30-Oct-2012 20:11:34 UTC] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home/p25lh1dg/public_html/dev/mypages/api/libs/epiphany/EpiDatabase.php on line 60
+[19-Nov-2012 01:20:40 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/p25lh1dg/public_html/dev/mypages/api/libs/epiphany/EpiDatabase.php on line 102
+[19-Nov-2012 01:21:29 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/p25lh1dg/public_html/dev/mypages/api/libs/epiphany/EpiDatabase.php on line 102
+[19-Nov-2012 01:22:21 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/p25lh1dg/public_html/dev/mypages/api/libs/epiphany/EpiDatabase.php on line 102
+[19-Nov-2012 01:22:48 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/p25lh1dg/public_html/dev/mypages/api/libs/epiphany/EpiDatabase.php on line 102
+[19-Nov-2012 01:23:05 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/p25lh1dg/public_html/dev/mypages/api/libs/epiphany/EpiDatabase.php on line 102
+[19-Nov-2012 01:23:58 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/p25lh1dg/public_html/dev/mypages/api/libs/epiphany/EpiDatabase.php on line 102

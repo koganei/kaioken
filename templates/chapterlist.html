@@ -1,0 +1,27 @@
+{{#items}}
+<div class="control-group">
+<label class="control-label" for="chapters-select"><h3>{{attributes.title}}</h3> </label>
+<div class="manga-description">
+	<img src="http://cdn.mangaeden.com/mangasimg/{{attributes.image}}" class="img-circle">
+	
+	<ul>
+		<li>Last Chapter: {{attributes.chapters_len}}</li>
+		<li>Last Chapter Date: {{#attributes.getDate}}{{/attributes.getDate}}</li>
+		<li>Released: {{attributes.released}}</li>
+		
+	</ul>
+	<div class="clearfix"></div>
+
+	<select id="chapters-select">
+	  {{#attributes.chapters}}
+	  	<option value="{{id}}" data-chapter="{{number}}">{{number}} - {{name}}</option>
+	  {{/attributes.chapters}}
+	</select>
+
+	<h4>Description</h4>
+	<p>{{attributes.description}}</p>
+
+</div>
+
+</div>
+{{/items}}

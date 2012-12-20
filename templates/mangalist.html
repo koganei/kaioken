@@ -1,0 +1,19 @@
+<div class="control-group">
+	<label class="control-label" for="title-search"><h3>Search</h3><div class="mangalist-loading-holder"></div> </label>
+	<input type="text" id="title-search" class="input-medium search-query" placeholder="">
+</div>
+
+<ul id="title-list" class="nav nav-list">
+              	{{#items}}
+                <li class="manga" data-im="{{attributes.im}}" data-i="{{attributes.i}}" data-a="{{attributes.a}}">{{attributes.t}}</li>
+                {{/items}}
+</ul>
+
+<ul id="full-title-list" class="nodisplay">
+              	{{#items}}
+                <li class="manga" data-im="{{attributes.im}}" data-i="{{attributes.i}}" data-a="{{attributes.a}}">
+                	{{attributes.t}}
+                	
+                </li>
+                {{/items}}
+</ul>
