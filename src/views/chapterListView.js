@@ -42,7 +42,8 @@ define(['src/views/netforgeView'], function(NetforgeView) {
 				netforge.collections.chapterlist.models[0].attributes.chapters &&
 				netforge.collections.chapterlist.models[0].attributes.chapters.length > 0) {
 				netforge.collections.pagelist.setChapterId(
-				netforge.collections.chapterlist.models[0].attributes.chapters[0].id);
+					netforge.collections.chapterlist.models[0].attributes.chapters[0].id
+				);
 				netforge.collections.pagelist.goFetch();
 			}
 		},
@@ -56,7 +57,10 @@ define(['src/views/netforgeView'], function(NetforgeView) {
 			var chapterId = $(target).val();
 
 			netforge.collections.pagelist.setChapterId(chapterId);
-			netforge.collections.pagelist.goFetch();
+			netforge.collections.pagelist.goFetch(function() {
+				netforge.views.pagelist.selectPage(0);
+			});
+			
 		}
 
 	});

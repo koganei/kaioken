@@ -90,7 +90,6 @@ body, html {
     position: fixed;
     top: 0;
     left: 25%;
-    
     width: 50%;
     z-index: 10000;    
 }
@@ -104,6 +103,7 @@ body, html {
  *  >>> SIDEBAR
  */
 .sidebar {
+
     -ms-overflow-x: hidden;
     overflow-x: hidden;
     -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
@@ -118,9 +118,9 @@ body, html {
 }
 
 .sidebar.closed {
-    width: 0px;
-    overflow: hidden;
+    width: 0;
     opacity: 0;
+    pointer-events: none;
 }
 
 
@@ -158,8 +158,8 @@ body, html {
 
 .manga {
     cursor: pointer;
-    /*list-style-type: circle;
-    height: 1.5em;*/
+    list-style-type: circle;
+    height: 1.5em;
 }
 
 .manga:nth-child(n+25) {
@@ -169,6 +169,7 @@ body, html {
 .manga:hover {
     background: rgba(255,255,255,0.2);
     color: #ddd;
+    text-decoration: underline;
 }
 
 
@@ -232,8 +233,27 @@ body, html {
 
     .pagelist.options-double-page .page {
         width: 45%;
-
     }
+
+    .pagelist.options-scroll-right,
+    .pagelist.options-scroll-left {
+        white-space: nowrap;
+    }
+    .pagelist.options-scroll-right .page {
+        float: none;
+        display: inline-block;
+    }   
+
+    .pagelist.options-scroll-left .page {
+        float: right;
+        display: inline-block;
+    }
+
+        .pagelist.options-scroll-left .page:last-child:after {
+            content: " ";
+            clear: both;
+        }
+
 
 
 

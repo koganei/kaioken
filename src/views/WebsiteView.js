@@ -146,7 +146,7 @@ var WebsiteView = Backbone.View.extend({
 	},
 
 
-	// let's try and keep the nunmber of things here low
+	// let's try and keep the number of things here low
 
 	/**
 	 * >>> BINDING-RELATED FUNCTIONS
@@ -162,8 +162,13 @@ var WebsiteView = Backbone.View.extend({
 		});
 
 		$(window).on('keydown', function(event) {
+			// Guards
+			if( $(event.target).is( $(':input') ) ) {
+				return true;
+			}
 
-			if(event.keyCode == 81) {// 'q'
+			// Events
+			if(event.keyCode == 81) { // 'q'
 				netforge.website.toggleSidebar();
 				
 			} else if(event.keyCode == 65){ // 'a' will be previous chapter
@@ -209,12 +214,12 @@ var WebsiteView = Backbone.View.extend({
 
 			} else if(event.keyCode == 83){ // 's' will be next page
 				// do next page stuff
-				// netforge.views.pagelist.nextPage();
+				netforge.views.pagelist.nextPage();
 				event.keyCode = 40;
 
 			} else if(event.keyCode == 87){ // 'w' will be previous page
 				// do previous page stuff
-				//netforge.views.pagelist.prevPage();
+				netforge.views.pagelist.prevPage();
 				event.keyCode = 38;
 
 			} else if(event.keyCode == 69){ // 'e' will be search
@@ -233,13 +238,13 @@ var WebsiteView = Backbone.View.extend({
 	toggleSidebar: function() {
 		if(netforge.sidebar) {
 			$('#sidebar').addClass('closed');
-			$('#page-wrapper').removeClass('span8');
-			$('#page-wrapper').addClass('span12');
+			// $('#page-wrapper').removeClass('span8');
+			// $('#page-wrapper').addClass('span12');
 			netforge.sidebar = false;
 		} else {
 			$('#sidebar').removeClass('closed');
-			$('#page-wrapper').removeClass('span12');
-			$('#page-wrapper').addClass('span8');
+			// $('#page-wrapper').removeClass('span12');
+			// $('#page-wrapper').addClass('span8');
 			netforge.sidebar = true;
 		}
 	},

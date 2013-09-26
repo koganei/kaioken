@@ -18,7 +18,7 @@ define(['src/views/netforgeView'], function(NetforgeView) {
 		selectPage: function(pagenumber) {
 			var $this = netforge.views.pagelist;
 
-				if(pagenumber) { $this.selectedPage = pagenumber; }
+				if(pagenumber != undefined) { $this.selectedPage = pagenumber; }
 				$pages = $('#page-wrapper .page');
 				if($pages.length > 0) {
 					$pages.removeClass('selected');
